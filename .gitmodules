@@ -1,0 +1,4 @@
+[submodule "Auth"]
+	path = Auth
+	url = git@github.com:software-architecturers/Auth.git
+	branch = master
