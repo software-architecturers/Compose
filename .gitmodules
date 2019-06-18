@@ -2,3 +2,7 @@
 	path = Auth
 	url = git@github.com:software-architecturers/Auth.git
 	branch = master
+[submodule "events-core"]
+	path = events-core
+	url = git@github.com:software-architecturers/events-core.git
+	branch = docker
