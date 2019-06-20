@@ -1,0 +1,9 @@
+# Only version is specified we add services from git submodules
+version: '3.7'
+services:
+  events-core:
+    build:
+      context: './events-core'
+  auth:
+    build:
+      context: './Auth'
