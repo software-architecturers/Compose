@@ -1,6 +1,7 @@
 #!/bin/bash
 cd "${0%/*}"
-docker-compose -f docker-compose.yml \
+docker-compose \
     -f ./events-core/docker-compose.yml \
     -f ./Auth/docker-compose.yml \
-    up "$@"
+    -f docker-compose.yml
+up "$@"
